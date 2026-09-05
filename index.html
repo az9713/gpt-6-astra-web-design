@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LARK · Scrollcraft comparison desk</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="comparison.css">
+</head>
+<body>
+  <header><p class="eyebrow">A study in scroll, space and attention</p><h1>One automaton.<br><em>Two ways to reveal it.</em></h1><p class="intro">Sol establishes the object and its ritual. Astra turns that ritual into a layered theatre. This is an iterative comparison—not an identical-prompt model benchmark.</p><a href="README.md">Read the design histories ↗</a></header>
+  <main>
+    <section class="controls" aria-label="Comparison controls">
+      <div class="control-row"><label for="viewport">Viewport</label><select id="viewport"><option value="desktop">Desktop · 1200 × 800</option><option value="phone">Phone · 390 × 844</option></select><span>Equal viewport sizes, scaled to fit.</span></div>
+      <div class="scenes" role="group" aria-label="Match narrative scenes"><button data-scene="opening" aria-pressed="true">Opening</button><button data-scene="mechanism" aria-pressed="false">Mechanism</button><button data-scene="craft" aria-pressed="false">Making / materials</button><button data-scene="listening" aria-pressed="false">Listening</button></div>
+      <div class="scrubber"><label for="progress">Scene progress</label><input id="progress" type="range" min="0" max="100" value="0"><output id="progress-value" for="progress">0%</output></div>
+      <p id="status" role="status">Loading both designs…</p>
+    </section>
+    <div class="comparison">
+      <section class="version"><div class="version-label"><div><span class="eyebrow">Version I · GPT-5.6 Sol</span><h2>Silence blooms.</h2></div><a href="automaton_scrollcraft_site/" target="_blank" rel="noopener">Open full size ↗</a></div><div class="frame-stage"><iframe id="sol" title="Version I by GPT-5.6 Sol" src="automaton_scrollcraft_site/index.html"></iframe></div><p class="reading">Look for the product crossing the lettering, the closed-to-open crossfade and the slow macro movement.</p></section>
+      <section class="version"><div class="version-label"><div><span class="eyebrow">Version II · GPT-6 Astra</span><h2>The Private Theatre.</h2></div><a href="automaton_scrollcraft_v2/" target="_blank" rel="noopener">Open full size ↗</a></div><div class="frame-stage"><iframe id="astra" title="Version II by GPT-6 Astra" src="automaton_scrollcraft_v2/index.html"></iframe></div><p class="reading">Look for curtains in front, lettering behind, scenery through the bird's frame and the expanding aperture.</p></section>
+    </div>
+    <p class="method">Scroll either frame independently. The controls match scene progress, not elapsed time or whole-page position. “Making / materials” compares related chapters, not identical content. Reduced-motion settings remain respected; use full motion within Version II if you want its complete choreography.</p>
+    <noscript><p>JavaScript is needed for the comparison controls. Use the full-size links to explore each site.</p></noscript>
+  </main>
+  <footer>Original sites preserved · Fictional product and generated imagery · <a href="PROMPTS.md">Original prompts</a></footer>
+  <script src="comparison.js"></script>
+</body>
+</html>
