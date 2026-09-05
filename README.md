@@ -6,6 +6,19 @@ Version I was built by **GPT-5.6 Sol**. Version II was built by **GPT-6 Astra**,
 
 **This is an iterative design comparison, not a controlled model benchmark.** The models did not receive identical inputs. Astra inherited the brand, product, four images, earlier design and video analysis, and received an explicit request to increase the effects. Differences cannot be attributed to model identity alone. The image-generation tool's underlying model identity was not established here; the model labels identify the coding/art-direction agents, not necessarily the image generator.
 
+## Click the screenshots to open the live local sites
+
+These are actual browser captures, not generated website mockups. **Click an image to open that version as an interactive webpage.** GitHub READMEs display static images, not executable webpages or embedded live frames. The links below use your local server on port 8767; they work only while that server is running on the computer where you click them. They are not publicly hosted demos. Start the server using the instructions below.
+
+| Version I · GPT-5.6 Sol | Version II · GPT-6 Astra |
+|---|---|
+| [![Sol: the closed automaton overlapping the Silence headline](screenshots/sol-opening.jpg)](http://127.0.0.1:8767/automaton_scrollcraft_site/) | [![Astra: the closed automaton between silk curtains with LARK lettering behind](screenshots/astra-opening.jpg)](http://127.0.0.1:8767/automaton_scrollcraft_v2/) |
+| Opening: atmosphere, oversized type and the product. | Opening: scenery, type, product and foreground curtains. |
+| [![Sol: the open songbird revealed through an image crossfade](screenshots/sol-reveal.jpg)](http://127.0.0.1:8767/automaton_scrollcraft_site/) | [![Astra: separated shell props expose the songbird while scenery remains visible through the frame](screenshots/astra-reveal.jpg)](http://127.0.0.1:8767/automaton_scrollcraft_v2/) |
+| Reveal: the open object and the drifting blooms lettering. | Reveal: separate shell props, the bird, and independent background planes. |
+
+Captured at the same 1280 × 720 browser viewport. The reveal images show characteristic states, not identical progress: approximately 76% of Sol's opening and 56% of Astra's opening. Use the [live comparison desk](http://127.0.0.1:8767/) to match progress precisely and inspect the motion in both directions.
+
 ## View them side by side
 
 From the repository root, run:
